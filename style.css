@@ -1,8 +1,9 @@
 :root {
   --text-color: #e5e3e3;
-  --bg-color: #100e09;
-  --primary-btn-color: #2f3335;
-  --hover-btn-color: #3b4042;
+  --bg-color: #14120b;
+  --primary-btn-color: #e8e6e5;
+  --hover-btn-color: #d7d6d5;
+  --btn-text-color: #000;
 }
 
 * {
@@ -21,11 +22,9 @@ body {
 }
 
 nav {
-  border: 1px solid blue;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* width: 71%; */
   margin: auto;
   padding: 5px 0;
 }
@@ -38,7 +37,7 @@ nav div a {
 }
 
 nav div button {
-  color: var(--text-color);
+  color: var(--btn-text-color);
   padding: 6px 12px;
   border-radius: 50px;
   border: 1px solid #565656;
@@ -47,6 +46,7 @@ nav div button {
 
 #sign-in-btn {
   background-color: var(--bg-color);
+  color: var(--text-color);
   margin-right: 10px;
 }
 
@@ -63,36 +63,34 @@ nav div button {
 }
 
 main {
-  border: 1px solid violet;
+  /* border: 5px solid blue; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* width: 71%; */
-  margin: 50px auto;
-  padding: 40px 0;
   text-align: start;
-  gap: 100px;
+  gap: 70px;
+  margin: 100px auto;
 }
 
 #main-first {
-  border: 1px solid green;
+  /* border: 2px solid magenta; */
   width: 40%;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 12px;
 }
 
 #main-first h1 {
   font-size: 26px;
   line-height: 32px;
   font-weight: 300;
-  padding-bottom: 5px;
+  padding-bottom: 20px;
 }
 
 #main-first button {
-  color: var(--text-color);
-  padding: 12px 24px;
+  color: var(--btn-text-color);
+  padding: 12px 26px;
   border-radius: 50px;
   border: 1px solid #565656;
   cursor: pointer;
@@ -104,12 +102,83 @@ main {
   background-color: var(--hover-btn-color);
 }
 
-#main-second {
-  border: 1px solid orange;
+#main-second img {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-
   width: 100%;
-  gap: 20px;
+  border-radius: 8px;
+}
+
+#trusted-by {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+#cards {
+  /* border: 2px solid pink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 100px;
+}
+
+#card-images {
+  width: 300px;
+  height: 100px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1b1913;
+}
+
+#card-images img {
+  max-width: 70%;
+  max-height: 50px;
+  object-fit: contain;
+}
+
+#big-cards {
+  /* border: 2px solid orange; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b1913;
+  border-radius: 4px;
+  gap: 10px;
+  margin-bottom: 120px;
+}
+
+#big-cards img {
+  object-fit: contain;
+  padding: 16px;
+  border-radius: 20px;
+}
+
+#card-left {
+  padding: 20px;
+}
+
+#card-left p span {
+  color: var(--text-color);
+}
+
+#card-left p {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #a0a0a0;
+  margin-bottom: 12px;
+}
+
+#card-left a {
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: 400;
+  cursor: pointer;
 }
