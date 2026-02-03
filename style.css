@@ -1,1 +1,115 @@
+:root {
+  --text-color: #e5e3e3;
+  --bg-color: #100e09;
+  --primary-btn-color: #2f3335;
+  --hover-btn-color: #3b4042;
+}
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 1px solid red;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, Helvetica, sans-serif;
+  width: 68%;
+  margin: auto;
+}
+
+nav {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 71%; */
+  margin: auto;
+  padding: 5px 0;
+}
+
+nav div a {
+  color: var(--text-color);
+  text-decoration: none;
+  margin-left: 28px;
+  font-size: 14px;
+}
+
+nav div button {
+  color: var(--text-color);
+  padding: 6px 12px;
+  border-radius: 50px;
+  border: 1px solid #565656;
+  cursor: pointer;
+}
+
+#sign-in-btn {
+  background-color: var(--bg-color);
+  margin-right: 10px;
+}
+
+#sign-in-btn:hover {
+  background-color: #1c1910;
+}
+
+#download-btn {
+  background-color: var(--primary-btn-color);
+}
+
+#download-btn:hover {
+  background-color: var(--hover-btn-color);
+}
+
+main {
+  border: 1px solid violet;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* width: 71%; */
+  margin: 50px auto;
+  padding: 40px 0;
+  text-align: start;
+  gap: 100px;
+}
+
+#main-first {
+  border: 1px solid green;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+#main-first h1 {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+
+#main-first button {
+  color: var(--text-color);
+  padding: 12px 24px;
+  border-radius: 50px;
+  border: 1px solid #565656;
+  cursor: pointer;
+  background-color: var(--primary-btn-color);
+  font-size: medium;
+}
+
+#main-first button:hover {
+  background-color: var(--hover-btn-color);
+}
+
+#main-second {
+  border: 1px solid orange;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  width: 100%;
+  gap: 20px;
+}
