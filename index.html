@@ -8,99 +8,345 @@
   </head>
   <body>
     <nav>
-      <div>
-        <img src="images/Logo.png" alt="Cursor" />
-      </div>
-      <div>
-        <a href="#">Features</a>
-        <a href="#">Enterprise</a>
-        <a href="#">Pricing</a>
-        <a href="#">Resourses</a>
-      </div>
-      <div>
-        <button id="sign-in-btn">Sign In</button>
-        <button id="download-btn">Download</button>
+      <div id="nav-div">
+        <div>
+          <img src="images/Logo.png" alt="Cursor" />
+        </div>
+        <div>
+          <a href="#">Features</a>
+          <a href="#">Enterprise</a>
+          <a href="#">Pricing</a>
+          <a href="#">Resourses</a>
+        </div>
+        <div>
+          <button id="sign-in-btn">Sign In</button>
+          <button id="download-btn">Download</button>
+        </div>
       </div>
     </nav>
-    <main>
-      <div id="main-first">
-        <h1>
-          Built to make you extraordinarily productive, Cursor is the best way
-          to code with AI.
-        </h1>
+    <div id="main-container">
+      <main>
+        <div id="main-first">
+          <h1>
+            Built to make you extraordinarily productive, Cursor is the best way
+            to code with AI.
+          </h1>
+          <button>Download for Linux</button>
+        </div>
+        <div id="main-second">
+          <img src="images/main-image.png" alt="Main Image" />
+        </div>
+      </main>
+
+      <div id="trusted-by">
+        <p>Trusted every day by millions of professional developers.</p>
+      </div>
+
+      <div id="cards">
+        <div id="card-images">
+          <img src="images/stripe.svg" alt="Stripe" />
+        </div>
+        <div id="card-images">
+          <img src="images/openai.svg" alt="Open AI" />
+        </div>
+        <div id="card-images">
+          <img src="images/linear.svg" alt="Linear" />
+        </div>
+        <div id="card-images">
+          <img src="images/datadog.svg" alt="DataDog" />
+        </div>
+        <div id="card-images">
+          <img src="images/navidia.svg" alt="Navidia" />
+        </div>
+        <div id="card-images">
+          <img src="images/figma.svg" alt="Figma" />
+        </div>
+        <div id="card-images">
+          <img src="images/ramp.svg" alt="Ramp" />
+        </div>
+        <div id="card-images">
+          <img src="images/adobe.svg" alt="Adobe" />
+        </div>
+      </div>
+
+      <div id="big-cards">
+        <div id="card-left">
+          <p>
+            <span>Agent turns ideas into code</span> <br />
+            A human-AI programmer, orders of magnitude more effective than any
+            developer alone.
+          </p>
+          <a href="#">Learn about Agents -></a>
+        </div>
+        <div id="card-right">
+          <img src="images/card-image-1.png" alt="Card Image 1" />
+        </div>
+      </div>
+      <div id="big-cards">
+        <div id="card-right">
+          <img src="images/card-image-2.png" alt="Card Image 1" />
+        </div>
+        <div id="card-left">
+          <p>
+            <span>Magically accurate autocomplete</span> <br />
+            Our custom Tab model predicts your next action with striking speed
+            and precision.
+          </p>
+          <a href="#">Learn about Tab -></a>
+        </div>
+      </div>
+      <div id="big-cards">
+        <div id="card-left">
+          <p>
+            <span>Everywhere software gets built</span> <br />
+            Cursor is in GitHub reviewing your PRs, a teammate in Slack, and
+            anywhere else you work.
+          </p>
+          <a href="#">Learn about Cursor's ecosystem -></a>
+        </div>
+        <div id="card-right">
+          <img src="images/card-image-3.png" alt="Card Image 1" />
+        </div>
+      </div>
+
+      <div id="testimonials">
+        <h2>The new way to build software.</h2>
+        <div id="testimonials-card">
+          <div id="testimonials-cards">
+            <p>
+              It was night and day from one batch to another, adoption went from
+              single digits to over 80%. It just spread like wildfire, all the
+              best builders were using Cursor.
+              <br />
+              <br />
+            </p>
+            <div id="testimonials-card-profile">
+              <img
+                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Testimonial 1"
+              />
+              <div>
+                <h3>Diana Hu</h3>
+                <p>General Partner, Y Combinator</p>
+              </div>
+            </div>
+          </div>
+          <div id="testimonials-cards">
+            <p>
+              The most useful AI tool that I currently pay for, hands down, is
+              Cursor. It's fast, autocompletes when and where you need it to,
+              handles brackets properly, sensible keyboard shortcuts,
+              bring-your-own-model... everything is well put together.
+            </p>
+            <div id="testimonials-card-profile">
+              <img
+                src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Testimonial 1"
+              />
+              <div>
+                <h3>shadcn</h3>
+                <p>Creator of shadcn/ui</p>
+              </div>
+            </div>
+          </div>
+          <div id="testimonials-cards">
+            <p>
+              The best LLM applications have an autonomy slider: you control how
+              much independence to give the AI. In Cursor, you can do Tab
+              completion, Cmd+K for targeted edits, or you can let it rip with
+              the full autonomy agentic version.
+            </p>
+            <div id="testimonials-card-profile">
+              <img
+                src="https://images.unsplash.com/photo-1754473618488-27a2cefd90b4?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Testimonial 1"
+              />
+              <div>
+                <h3>Andrej Karpathy</h3>
+                <p>CEO, Eureka Labs</p>
+              </div>
+            </div>
+          </div>
+          <div id="testimonials-cards">
+            <p>
+              Cursor quickly grew from hundreds to thousands of extremely
+              enthusiastic Stripe employees. We spend more on R&D and software
+              creation than any other undertaking, and there's significant
+              economic outcomes when making that process more efficient and
+              productive.
+            </p>
+            <div id="testimonials-card-profile">
+              <img
+                src="https://images.unsplash.com/photo-1618077360395-f3068be8e001?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Testimonial 1"
+              />
+              <div>
+                <h3>Patrick Collison</h3>
+                <p>Co‑Founder & CEO, Stripe</p>
+              </div>
+            </div>
+          </div>
+          <div id="testimonials-cards">
+            <p>
+              It's official. <br />
+              <br />
+              I hate vibe coding. <br />
+              I love Cursor tab coding. <br />
+              <br />
+              It's wild.
+            </p>
+            <div id="testimonials-card-profile">
+              <img
+                src="https://images.unsplash.com/photo-1639242210298-27861f84eab1?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Testimonial 1"
+              />
+              <div>
+                <h3>ThePrimeagen</h3>
+                <p>@ThePrimeagen</p>
+              </div>
+            </div>
+          </div>
+          <div id="testimonials-cards">
+            <p>
+              It's definitely becoming more fun to be a programmer. It's less
+              about digging through pages and more about what you want to
+              happen. We are at the 1% of what's possible, and it's in
+              interactive experiences like Cursor where models like GPT-5 shine
+              brightest.
+            </p>
+            <div id="testimonials-card-profile">
+              <img
+                src="https://plus.unsplash.com/premium_photo-1726776109594-aedf9714ac12?q=80&w=883&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Testimonial 1"
+              />
+              <div>
+                <h3>Greg Brockman</h3>
+                <p>President, OpenAI</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="container-zero-one">
+        <h2>Stay on the frontier</h2>
+        <div id="three-cards">
+          <div id="container-cards">
+            <p>
+              <span>Access the best models</span>
+              Choose between every cutting-edge model from OpenAI, Anthropic,
+              Gemini, and xAI.
+            </p>
+            <a href="#">Explore models -></a>
+            <img src="images/Three-card-1.png" alt="image 1" />
+          </div>
+          <div id="container-cards">
+            <p>
+              <span>Complete codebase understanding</span>
+              Cursor learns how your codebase works, no matter the scale or
+              complexity.
+            </p>
+            <a href="#">Learn about semantic search -></a>
+            <img src="images/Three-card-2.png" alt="Image 2" />
+          </div>
+          <div id="container-cards">
+            <p>
+              <span>Develop enduring software</span>
+              Trusted by over half of the Fortune 500 to accelerate development,
+              securely and at scale.
+            </p>
+            <a href="#">Explore enterprise -></a>
+            <img src="images/Three-card-3.png" alt="image 3" />
+          </div>
+        </div>
+      </div>
+
+      <div id="container-zero-two">
+        <h2 class="changelog">Changelog</h2>
+        <div id="changlogs-cards">
+          <div class="small-cards">
+            <span class="span-one">2.4</span>
+            <span class="span-two">Jan 22, 2026</span>
+            <p>Subagents, Skills, and Image Generation</p>
+          </div>
+          <div class="small-cards">
+            <span class="span-one span-hidden">2.3</span>
+            <span class="span-two">Jan 16, 2026</span>
+            <p>CLI Agent Modes and Cloud Handoff</p>
+          </div>
+          <div class="small-cards">
+            <span class="span-one span-hidden">2.3</span>
+            <span class="span-two">Jan 8, 2026</span>
+            <p>New CLI Features and Improved CLI Performance</p>
+          </div>
+          <div class="small-cards">
+            <span class="span-one">2.3</span>
+            <span class="span-two">Dec 22, 2025</span>
+            <p>Layout Customization and Stability Improvements</p>
+          </div>
+        </div>
+        <a class="container-link" href="#">See what's new in Cursor -></a>
+      </div>
+
+      <div id="container-zero-three">
+        <div class="para-btn">
+          <h2>
+            Cursor is an applied team focused on building the future of coding.
+          </h2>
+          <button>Join us -></button>
+        </div>
+        <div class="only-image">
+          <img
+            src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Container Three Image"
+          />
+        </div>
+      </div>
+    </div>
+    <div id="full-container">
+      <div id="fixed-width">
+        <div id="container-zero-four">
+          <span>Recent highlights</span>
+          <div class="zero-four">
+            <div class="product-research">
+              <p>
+                <span> Introducing Cursor 2.0 and Composer</span>
+                A new interface and our first coding model, both purpose-built
+                for working with agents.
+              </p>
+              <span class="product-date">Product · Oct 29, 2025</span>
+            </div>
+            <div class="product-research">
+              <p>
+                <span> Improving Cursor Tab with online RL</span>
+                Our new Tab model makes 21% fewer suggestions while having 28%
+                higher accept rate.
+              </p>
+              <span class="product-date">Research · Sep 12, 2025</span>
+            </div>
+            <div class="product-research">
+              <p>
+                <span> 1.5x faster MoE training with custom MXFP8 kernels</span>
+                Achieving a 3.5x MoE layer speedup with a complete rebuild for
+                Blackwell GPUs.
+              </p>
+              <span class="product-date">Research · Aug 29, 2025 </span>
+            </div>
+            <div class="view-post">
+              <a href="#">View more posts -></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="container-zero-five">
+      <div class="zero-five">
+        <h1>Try Cursor now.</h1>
         <button>Download for Linux</button>
       </div>
-      <div id="main-second">
-        <img src="images/main-image.png" alt="Main Image" />
-      </div>
-    </main>
-    <div id="trusted-by">
-      <p>Trusted every day by millions of professional developers.</p>
     </div>
-    <div id="cards">
-      <div id="card-images">
-        <img src="images/stripe.svg" alt="Stripe" />
-      </div>
-      <div id="card-images">
-        <img src="images/openai.svg" alt="Open AI" />
-      </div>
-      <div id="card-images">
-        <img src="images/linear.svg" alt="Linear" />
-      </div>
-      <div id="card-images">
-        <img src="images/datadog.svg" alt="DataDog" />
-      </div>
-      <div id="card-images">
-        <img src="images/navidia.svg" alt="Navidia" />
-      </div>
-      <div id="card-images">
-        <img src="images/figma.svg" alt="Figma" />
-      </div>
-      <div id="card-images">
-        <img src="images/ramp.svg" alt="Ramp" />
-      </div>
-      <div id="card-images">
-        <img src="images/adobe.svg" alt="Adobe" />
-      </div>
-    </div>
-    <div id="big-cards">
-      <div id="card-left">
-        <p>
-          <span>Agent turns ideas into code</span> <br />
-          A human-AI programmer, orders of magnitude more effective than any
-          developer alone.
-        </p>
-        <a href="#">Learn about Agents -></a>
-      </div>
-      <div id="card-right">
-        <img src="images/card-image-1.png" alt="Card Image 1" />
-      </div>
-    </div>
-    <div id="big-cards">
-      <div id="card-right">
-        <img src="images/card-image-2.png" alt="Card Image 1" />
-      </div>
-      <div id="card-left">
-        <p>
-          <span>Magically accurate autocomplete</span> <br />
-          Our custom Tab model predicts your next action with striking speed and
-          precision.
-        </p>
-        <a href="#">Learn about Tab -></a>
-      </div>
-    </div>
-    <div id="big-cards">
-      <div id="card-left">
-        <p>
-          <span>Everywhere software gets built</span> <br />
-          Cursor is in GitHub reviewing your PRs, a teammate in Slack, and
-          anywhere else you work.
-        </p>
-        <a href="#">Learn about Cursor's ecosystem </a>
-      </div>
-      <div id="card-right">
-        <img src="images/card-image-3.png" alt="Card Image 1" />
-      </div>
-    </div>
+    <footer>
+      <div id="footer"></div>
+    </footer>
   </body>
 </html>
