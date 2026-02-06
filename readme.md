@@ -2,7 +2,8 @@
 
 This project is a recreation of the Cursor website landing page using only **HTML and CSS**.
 
-## 🔗 Screenshot
+## 🔗 Screenshot of Hero Section
+<img width="1920" height="897" alt="Screenshot from 2026-02-06 16-53-15" src="https://github.com/user-attachments/assets/5aa379d8-1821-4223-8b00-d0aa5378b336" />
 
 ---
 
